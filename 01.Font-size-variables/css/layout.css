@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 3%;
+    font-family: 'lato', sans-serif;
+    color: rgb(26, 26, 26);
+}
+h1{
+    text-align: center;
+    font-size: var(--main-fontsize-h1);
+    font-weight: bold;
+}
+h3{
+    font-size: var(--main-fontsize-h3);
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-size: var(--main-fontsize-p);
+}

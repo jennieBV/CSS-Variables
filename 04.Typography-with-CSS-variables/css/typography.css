@@ -1,0 +1,18 @@
+html{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 500px){
+    body{
+    font-size: var(--mobile-fs, 14px);
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 700px){
+    body{
+    font-size: var(--tablet-fs, 16px);
+    }
+}
+@media screen and (min-width: 1600px){
+    body{
+    font-size: var(--desktop-fs, 18px);
+    }
+}

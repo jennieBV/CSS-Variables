@@ -1,0 +1,36 @@
+ul{
+    text-align: center;
+    border: 3px solid var(--color-alt-yellow);
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    padding: 1% 0 1% 0;
+    color: var(--color-primary);
+    font-family: Lato, sans-serif;
+}
+ul li{
+    display: inline-block;
+    width: 28%;
+    text-align: start;
+    vertical-align: top;
+    margin: 0;
+    padding: 1%;
+}
+h3{
+    margin-top: 0;
+}
+button{
+    color: var(--color-white);
+    background-color: var(--color-alt-yellow);
+    font-weight: bold;
+    padding: 3% 5%;
+    border: none;
+    border-radius: 8px;
+    text-align: end;
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: var(--color-alt-yellow);
+}
+
